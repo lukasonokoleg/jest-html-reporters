@@ -71,6 +71,7 @@ const getColumns = (rootDir) => [
             }} />
         </span>
         <span className='path_text' id={text} > {relativePath}</span>
+        <span className='path_text' id={text} > {rootDir}</span>
       </span>
     }
   },
